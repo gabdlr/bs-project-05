@@ -15,6 +15,7 @@ body {
 .bg-secondary{
     background-color: #752f97!important;
 }
+
 /**Header**/
 .embed-responsive {
   position: relative;
@@ -56,31 +57,26 @@ body {
     height: auto;
   }
 }
-
 .informacion-concierto {
   position: absolute;
   top: 20%;
   z-index: 100;
 }
-
 @media (min-width: 992px) {
     .informacion-concierto {
         top: 35%;
       } 
 }
-
 .informacion-concierto h1 {
     font-size: 3rem;
     line-height: 6rem;
 }
-
 @media (min-width: 992px) {
     .informacion-concierto h1 {
         font-size: 4rem;
         line-height: unset;
     }  
 }
-
 .informacion-concierto h1 span,
 .informacion-concierto p {
     font-weight: 700;
@@ -88,11 +84,9 @@ body {
     -moz-box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.78);
     box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.78);
 }
-
 .informacion-concierto p {
     font-size: 2rem;
 }
-
 .informacion-concierto .text-dark,
 .sobre-festival .text-dark {
     color: #f53756!important;
@@ -110,19 +104,71 @@ body {
     background-size: 120px;
     margin: 0 auto;
 }
-
 .rock::after {
     background-image: url(../img/guitarra.png);
 }
-
 .dj::after {
     background-image: url(../img/dj.png);
 }
-
 .horario.bg-warning li:nth-child(2n+2){
     background-color: #eae05b;
 }
-
 .horario.bg-success li:nth-child(2n+2){
     background-color: #3ca8a2;
+}
+
+/**Countdown**/
+.fecha {
+  font-size: 2.8rem;
+}
+.fecha span{
+  font-weight: 700;
+}
+.fecha span::before{
+  content: '- ';
+}
+.fecha span:first-child::before{
+  display: none;
+}
+
+/**Boletos**/
+.boletos .precio{
+  font-size: 2rem;
+}
+.boletos .active{
+  background-color: #752f97;
+}
+.list-group-item-success {
+  background-color: #4cb8b3;
+}
+.list-group-item:hover{
+  z-index: unset;
+}
+
+/**Navbar**/
+.fixed-top.bg-success {
+  -webkit-box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.41);
+  box-shadow: 0px 6px 10px -1px rgba(0,0,0,0.41);
+}
+.fixed-top{
+  transition: all .3s ease;
+}
+.fixed-top .nav-link{
+  color: #ffffff!important;
+}
+.navbar-brand{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.navbar-brand span{
+  font-weight: 700;
+}
+a.navbar-brand.text-light:hover{
+  color: #ffffff!important;
+}
+
+/**ScrollSpy**/
+.fixed-top .active{
+  background-color: #752f97!important;
 }

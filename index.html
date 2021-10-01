@@ -10,7 +10,23 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navegacion-principal" data-offset="100">
+  <nav id="navegacion-principal" class="navbar fixed-top navbar-light bg-transparent">
+    <div class="container">
+      <a href="#" class="navbar-brand text-light">FDM BA <span>2021</span></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#lineup" class="nav-link">Line Up</a>
+        </li>
+        <li class="nav-item">
+          <a href="#galeria" class="nav-link">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a href="#boletos" class="nav-link">Boletos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div class="embed-responsive embed-responsive-16by9">
     <video src="video/concierto.mp4" class="embed-responsive-item d-none d-lg-block" type="video/mp4" autoplay
       loop></video>
@@ -47,7 +63,7 @@
     </div>
     <!--.container-->
   </main>
-  <div class="lineup bg-danger mb-5 p-5">
+  <div id="lineup" class="lineup bg-danger mb-5 p-5">
     <h2 class="text-center text-light">LineUp Confirmado</h2>
     <h3 class="text-center text-uppercase text-light mt-4">Viernes 23</h3>
     <div class="container mt-4">
@@ -168,6 +184,194 @@
       </div>
     </div><!--.container-->
   </div><!--.lineup-->
+  <div id="galeria" class="galeria container">
+    <h2 class="text-center">Galeria</h2>
+    <div class="row mt-4">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen1">
+          <img src="img/thumbs/1.jpg" class="img-fluid mb-4" alt="imagen1">
+        </a>
+        <div id="imagen1" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/1.jpg" alt="imagen1" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen2">
+          <img src="img/thumbs/2.jpg" class="img-fluid mb-4" alt="imagen2">
+        </a>
+        <div id="imagen2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/2.jpg" alt="imagen2" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen3">
+          <img src="img/thumbs/3.jpg" class="img-fluid mb-4" alt="imagen3">
+        </a>
+        <div id="imagen3" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/3.jpg" alt="imagen3" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen4">
+          <img src="img/thumbs/4.jpg" class="img-fluid mb-4" alt="imagen4">
+        </a>
+        <div id="imagen4" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/4.jpg" alt="imagen4" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen5">
+          <img src="img/thumbs/5.jpg" class="img-fluid mb-4" alt="imagen5">
+        </a>
+        <div id="imagen5" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/5.jpg" alt="imagen5" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen6">
+          <img src="img/thumbs/6.jpg" class="img-fluid mb-4" alt="imagen6">
+        </a>
+        <div id="imagen6" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/6.jpg" alt="imagen6" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen7">
+          <img src="img/thumbs/7.jpg" class="img-fluid mb-4" alt="imagen7">
+        </a>
+        <div id="imagen7" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/7.jpg" alt="imagen7" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen8">
+          <img src="img/thumbs/8.jpg" class="img-fluid mb-4" alt="imagen8">
+        </a>
+        <div id="imagen8" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/8.jpg" alt="imagen8" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen9">
+          <img src="img/thumbs/9.jpg" class="img-fluid mb-4" alt="imagen9">
+        </a>
+        <div id="imagen9" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/9.jpg" alt="imagen9" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen10">
+          <img src="img/thumbs/10.jpg" class="img-fluid mb-4" alt="imagen10">
+        </a>
+        <div id="imagen10" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/10.jpg" alt="imagen10" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen11">
+          <img src="img/thumbs/11.jpg" class="img-fluid mb-4" alt="imagen11">
+        </a>
+        <div id="imagen11" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/11.jpg" alt="imagen11" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="#" class="nav-link" data-toggle="modal" data-target="#imagen12">
+          <img src="img/thumbs/12.jpg" class="img-fluid mb-4" alt="imagen12">
+        </a>
+        <div id="imagen12" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-center">
+            <div class="modal-content">
+              <img src="img/grande/12.jpg" alt="imagen12" class="img-fluid">
+            </div><!--.modal-content-->
+          </div><!--.modal-dialog-->
+        </div><!--.modal-->
+      </div><!--.col-6-->
+    </div><!--.row-->
+  </div>
+  <div class="faltan bg-success py-5">
+    <h2 class="text-center text-light display-1 text-uppercase font-weight-bold">
+      faltan
+    </h2>
+    <div class="row justify-content-center">
+      <div id="fecha" class="text-light text-center fecha"></div>
+    </div>
+  </div>
+  <div id="boletos" class="boletos bg-danger py-5">
+    <h2 class="text-center text-light mb-4">Boletos</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-center text-light">1 Día</h3>
+          <div class="contenido mt-5">
+            <ul class="list-group text-center">
+              <li class="list-group-item bg-secondary text-light text-uppercase">Incluye</li>
+              <li class="list-group-item">Acceso viernes y sábado</li>
+              <li class="list-group-item">Acceso a los dos escenarios</li>
+              <li class="list-group-item list-group-item-success text-light"><p class="precio m-0">$100</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-center text-light">2 Días</h3>
+          <div class="contenido mt-5">
+            <ul class="list-group text-center">
+              <li class="list-group-item bg-secondary text-light text-uppercase">Incluye</li>
+              <li class="list-group-item">Acceso viernes y sábado</li>
+              <li class="list-group-item">Acceso a los dos escenarios</li>
+              <li class="list-group-item">Camisa del evento</li>
+              <li class="list-group-item list-group-item-success text-light"><p class="precio m-0">$180</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="mt-4 text-light text-center">Ambos paquetes incluyen acceso al area de comida, bebidas y baños. Acceso desde las 14:00hs.</p>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
